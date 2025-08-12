@@ -110,6 +110,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: var(--extra-light);
+  font-weight: 500;
 }
 
 .nav__menu__btn {
