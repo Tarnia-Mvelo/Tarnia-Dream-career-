@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Testimonials | Tarnia DreamCareers</title>
+  <style>
+    /* Override swiper container to show all slides horizontally without swipe */
+
+    /* Make the container flexbox, no swiper styles */
+    .swiper {
+      overflow: visible !important;
+      padding: 0;
+    }
+
+    /* Instead of swiper-wrapper, use flexbox to layout */
+    .swiper-wrapper {
+      display: flex !important;
+      gap: 2rem;
+      overflow: visible !important;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+
+    /* Each slide fixed width and no swiper-slide styling */
+    .swiper-slide {
+      flex: 0 0 320px; /* fixed width for cards */
+      box-sizing: border-box;
+      margin: 0 !important;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="index.html" class="logo">Tarnia Dream<span>Careers</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="testimonials.html" class="active">Testimonials</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="section__container client__container">
+    <h2 class="section__header">What Our <span>Clients Say</span></h2>
+    <p class="section__description">
+      Read Testimonials and Success Stories from Our Satisfied Job Seekers and
+      Employers to See How We Make a Difference
+    </p>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-1.jpg" alt="client" />
+            <p>
+              Searching for a job can be overwhelming, but this platform made
+              it simple and efficient. I uploaded my resume, applied to a few
+              positions, and soon enough, I was hired! Thank you for helping
+              me kickstart my career!
+            </p>
+            <div class="client__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <h4>Sarah Patel</h4>
+            <h5>Graphic Designer</h5>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-2.jpg" alt="client" />
+            <p>
+              As a recent graduate, I was unsure where to start my job search.
+              This website guided me through the process step by step. From
+              creating my profile to receiving job offers, everything was
+              seamless. I'm now happily employed thanks to this platform!
+            </p>
+            <div class="client__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+            </div>
+            <h4>Michael Brown</h4>
+            <h5>Recent Graduate</h5>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-3.jpg" alt="client" />
+            <p>
+              Creating an account was a breeze, and I was amazed by the number
+              of job opportunities available. Thanks to this website, I found
+              the perfect position that aligned perfectly with my career
+              goals.
+            </p>
+            <div class="client__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <h4>Tarnia Ntuli</h4>
+            <h5>Software Engineer</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="index.html" class="logo">Tarnia Dream<span>Careers</span></a>
+        </div>
+        <p>
+          Our platform is designed to help you find the perfect job and
+          achieve your professional dreams.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Follow Us</h4>
+        <ul class="footer__links">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact Us</h4>
+        <ul class="footer__links">
+          <li>
+            <a href="#">
+              <span><i class="ri-phone-fill"></i></span> +27 615 518 4658
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-map-pin-2-fill"></i></span>
+              123 Main Street, Sandton, South Africa
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2025 Tarnia Dream Careers. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Remove swiper JS, no longer needed -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+  <script src="main.js"></script>
+</body>
+</html>
